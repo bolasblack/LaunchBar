@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>weasel.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>c4605.LaunchBar.action.AskAI</string>
+	<key>CFBundleName</key>
+	<string>Ask AI</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Christian Bender</string>
+		<key>LBEmail</key>
+		<string>ptujec@me.com</string>
+		<key>LBSummary</key>
+		<string>⌥↩ = Settings; ⌘↩ = Chats; ↩ = Presets; ␣ = Enter text</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/bolasblack/LaunchBar/master/AskAI/AskAI.lbaction/Contents/Info.plist</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/bolasblack/LaunchBar/tree/master/AskAI</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Ask AI</string>
+</dict>
+</plist>

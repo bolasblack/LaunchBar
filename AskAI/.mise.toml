@@ -1,0 +1,11 @@
+[tools]
+bun = "latest"
+watchexec = "latest"
+
+[tasks.build]
+sources = ["src/**/*"]
+run = "bun build src/default.ts --compile --outfile AskAI.lbaction/Contents/Scripts/default"
+
+[tasks.build-prod]
+sources = ["src/**/*"]
+run = "bun build src/default.ts --compile --bytecode --outfile AskAI.lbaction/Contents/Scripts/default"
