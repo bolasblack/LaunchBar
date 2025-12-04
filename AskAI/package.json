@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "build": "bun build --compile --outfile=AskAI.lbaction/Contents/Scripts/default src/default.ts"
+  },
   "dependencies": {
-    "@types/bun": "^1.1.16"
+    "@types/bun": "^1.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
